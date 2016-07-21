@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+    android:background="#eeeeee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/black"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:text="My Nanodegree App!"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:text="spotify streamer"
+        />
+    <Button
+        style="@style/ButtonStyle"
+        android:text="stock hawk"
+        />
+    <Button
+        style="@style/ButtonStyle"
+        android:text="build it bigger"
+        />
+    <Button
+        style="@style/ButtonStyle"
+        android:text="make your app material"
+        />
+    <Button
+        style="@style/ButtonStyle"
+        android:text="go ubiquitous"
+        />
+    <Button
+        style="@style/ButtonStyle"
+        android:text="capstone"
+        android:onClick="sendMessage"
+        />
+
+</LinearLayout>
+
+
